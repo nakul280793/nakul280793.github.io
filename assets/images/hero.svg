@@ -1,1 +1,8 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+  <rect width="1200" height="500" fill="#f6efe0"/>
+  <circle cx="200" cy="250" r="140" fill="#e0a105" opacity="0.25"/>
+  <circle cx="340" cy="250" r="120" fill="#8b1e3f" opacity="0.25"/>
+  <text x="600" y="240" font-size="42" text-anchor="middle" fill="#8b1e3f" font-family="Georgia, serif">Soni Samaj — Fulai Mata Mandir</text>
+  <text x="600" y="290" font-size="22" text-anchor="middle" fill="#2c2430">Welcome to the community temple website</text>
+</svg>
