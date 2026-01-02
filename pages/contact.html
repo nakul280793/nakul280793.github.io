@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Fulai Mata Mandir</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner" role="navigation" aria-label="Top utility links">
+      <div class="brand">
+        <img src="assets/images/logo.svg" alt="Fulai Mata Mandir logo" />
+        <strong class="site-title">Fulai Mata Mandir — Soni Samaj</strong>
+      </div>
+      <nav class="quick">
+        <a href="#live">Live Darshan</a>
+        <a href="pages/darshan.html">Aarti Timings</a>
+        <a href="pages/donate.html">Donate</a>
+        <a href="pages/visit.html">Visit Us</a>
+      </nav>
+      <div class="lang" aria-label="Language selection">
+        <a href="#">EN</a> | <a href="#">HI</a>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <div class="container" style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
+      <button id="menuBtn" class="menu-btn" aria-controls="drawer" aria-expanded="false">Menu ☰</button>
+      <nav class="nav" role="navigation" aria-label="Main">
+        <a href="index.html" >Home</a>
+        <a href="pages/about.html" >About</a>
+        <a href="pages/darshan.html" >Darshan & Seva</a>
+        <a href="pages/events.html" >Events</a>
+        <a href="pages/visit.html" >Visit</a>
+        <a href="pages/donate.html" >Donations</a>
+        <a href="pages/contact.html" style="font-weight:bold">Contact</a>
+      </nav>
+      <form class="search" role="search" aria-label="Site search">
+        <input type="search" placeholder="Search…" aria-label="Search" />
+      </form>
+    </div>
+    <div id="drawer" class="drawer container" role="navigation" aria-label="Mobile menu">
+      <a href="index.html">Home</a>
+      <a href="pages/about.html">About</a>
+      <a href="pages/darshan.html">Darshan & Seva</a>
+      <a href="pages/events.html">Events</a>
+      <a href="pages/visit.html">Visit</a>
+      <a href="pages/donate.html">Donations</a>
+      <a href="pages/contact.html">Contact</a>
+    </div>
+  </header>
+
+  <div id="banner" class="banner" role="status" aria-live="polite">
+    <div class="container">
+      <strong id="aartiTime">Today's Aarti:</strong>
+      <a href="pages/darshan.html" class="btn secondary">View Details →</a>
+      <button id="closeBanner" aria-label="Dismiss announcement">✕</button>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+
+<main class="container" style="padding:2rem 0;">
+  <h1>Contact</h1>
+  <p>Phone, email, WhatsApp, and office hours.</p>
+  <form>
+    <label for="n">Name</label><br>
+    <input id="n" type="text" placeholder="Your name" style="width:260px" /><br><br>
+    <label for="m">Message</label><br>
+    <input id="m" type="text" placeholder="How can we help?" style="width:260px" />
+    <br><br>
+    <button class="btn" type="button">Send (demo)</button>
+  </form>
+</main>
+
+  <footer>
+    <div class="container footer-top">
+      <div class="cols">
+        <section aria-label="Temple information">
+          <h4>Temple</h4>
+          <p>Soni Samaj — Fulai Mata Mandir</p>
+          <p>Address: (add exact location here)</p>
+          <p>Open: 6:00 AM – 10:00 PM</p>
+          <p><a href="#">View Map</a></p>
+          <p>Phone: +91-XXXXXXXXXX</p>
+        </section>
+        <section aria-label="Quick links">
+          <h4>Quick Links</h4>
+          <p><a href="pages/darshan.html">Darshan & Seva</a></p>
+          <p><a href="pages/events.html">Events & Festivals</a></p>
+          <p><a href="pages/donate.html">Online Donation</a></p>
+          <p><a href="pages/volunteer.html">Volunteer</a></p>
+          <p><a href="pages/faq.html">FAQs</a></p>
+        </section>
+        <section aria-label="Policies and reports">
+          <h4>Trust & Policies</h4>
+          <p><a href="#">Transparency Reports</a></p>
+          <p><a href="#">Privacy Policy</a></p>
+          <p><a href="#">Terms of Use</a></p>
+        </section>
+        <section aria-label="Social and newsletter">
+          <h4>Connect</h4>
+          <p>
+            <a href="#">YouTube</a> · <a href="#">Instagram</a> · <a href="#">Facebook</a>
+          </p>
+          <form aria-label="Newsletter">
+            <label for="email">Subscribe</label><br />
+            <input id="email" type="email" placeholder="you@example.com" />
+            <button type="submit" class="btn" style="margin-top:.5rem">Join</button>
+          </form>
+        </section>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;">
+        <div>© 2025 Fulai Mata Mandir Trust (Soni Samaj)</div>
+        <div>Built by devotees • Jai Mataji!</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
